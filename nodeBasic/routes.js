@@ -30,9 +30,7 @@ const requestHnadler = (req, res) => {
     res.write('<head><title>My First Page</title></head>');
     res.write(`<body><h1 style="text-align:center;color:orange">Hello From my node js server</h1></body>`);
     res.end();
-
 }
-
 
 module.exports = {
     Handler: requestHnadler,
